@@ -40,6 +40,7 @@
     <module>commons-vfs2-jackrabbit2</module>
     <module>commons-vfs2-examples</module>
     <module>commons-vfs2-distribution</module>
+    <module>commons-vfs2-sandbox</module>
   </modules>
   <!-- commons-vfs2-sandbox is in profile include-sandbox -->
 
@@ -103,7 +104,7 @@
       <email>ggregory at apache.org</email>
       <url>https://www.garygregory.com</url>
       <organization>The Apache Software Foundation</organization>
-      <organizationUrl>https://www.apache.org/</organizationUrl>      
+      <organizationUrl>https://www.apache.org/</organizationUrl>
       <roles>
         <role>PMC Member</role>
       </roles>
@@ -258,7 +259,7 @@
               <version>${commons.spotbugs.impl.version}</version>
             </dependency>
           </dependencies>
-        </plugin>        
+        </plugin>
         <plugin>
           <!--  Fixes org.apache.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19 -->
           <groupId>org.apache.maven.plugins</groupId>
